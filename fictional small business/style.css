@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+   background-color: #654321; 
+   color: #FFFFFF;
+}
+button{
+    padding: 10px  20px;
+    border-radius: 25px;
+    margin-left: 300px;
+    border:2px solid  #ffffff; 
+}
+button:hover{
+    background-color: #9b734f;
+    color:white;
+    border:2px solid transparent;
+}
+.hero{
+    /* border:2px solid blue; */
+    padding: 20px;
+}
+h1{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin-left: 30px;
+    margin: 12px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .a1 {
+    margin: 0 10px;
+    margin-bottom: 68px;
+  }
+
+  .imageslider
+  {
+   width:100%;
+   height:400px;
+   background-image: url(./images/1.jpeg);
+   background-size: 100% 100%;
+   box-shadow: rgba(149,157,165,0.2)0px 8px 24px;
+   animation:changeimage 30s linear infinite ;
+  }
+  @keyframes changeimage{
+   0%{
+     background-image: url(./images/1.jpeg) 
+   }
+   25%{
+     background-image: url(./images/2.png)  
+   }
+   50%{
+     background-image: url(./images/3.png)  
+   }
+   75%{
+     background-image: url(./images/4.jpeg)  
+   }
+  }
+.a3{
+    border:8px solid white;
+    background-color: #9b734f;
+    color:#654321;
+    padding: 10px;
+} 
+.a4{
+    background-color: #9b734f;  
+    color:#654321;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.a5{
+    background-color: #9b734f;  
+    color:#593b1d;
+    font-weight: bold;
+}
+.a6{
+    padding: 10px;
+    border:8px solid white;
+}
+.a7{
+    background-color:#654321 ;  
+    color:#9b734f;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.a8{
+    color:#9b734f; 
+}
+.a9{
+    background-color:#9b734f;
+    text-align: center;
+    padding: 20px;
+}
+.a10{
+    background-color:#9b734f;
+    text-align: center;
+    padding: 20px;
+    color:#715539;
+}
+
+
+.faq-section {
+    padding: 50px;
+    background-color: #715539;  
+  }
+  
+  .faq-container {
+    background-color: #715539;  
+    margin-top: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+     background-color: #715539; 
+  }
+  
+  .faq-question {
+    margin-bottom: 30px;
+  }
+  
+  .faq-question h3 {
+    margin-bottom: 10px;
+    cursor: pointer;
+     /* background-color: #715539;  */
+  }
+  
+  .faq-answer {
+    padding: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-top: 12px;
+  }
+  .testimonial {
+    background-color: #715539;
+    color: #9b734f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+  }
+  
+  .testimonial-text {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-author {
+    font-weight: bold;
+  }
+  .a56{
+    margin-bottom: 25px;
+    background-color: #715539;  
+  }
